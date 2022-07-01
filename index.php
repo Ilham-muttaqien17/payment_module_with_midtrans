@@ -40,7 +40,7 @@
 
 <body  class="h-screen bg-cover bg-no-repeat bg-fixed" style="background-image: url('./assets/ilustrasi/gambar6.png')">
     <!-- Navbar -->
-    <nav class="sticky top-0 z-30 bg-transparent px-5 py-3 md:flex md:items-center md:justify-between">
+    <nav class="sticky top-0 z-30 bg-[#263238] px-5 py-3 md:flex md:items-center md:justify-between">
         <div class="flex justify-between items-center">
             <a href="#" class="flex items-center">
                 <img src="./assets/logo/logo_lumintu.png" class="ml-4 h-6 sm:h-9" alt="Lumintu Logo" />
@@ -50,17 +50,21 @@
             </span>
         </div>
 
-        <ul class="md:flex md:items-center z-[0] md:z-auto md:static absolute bg-transparent w-full 
+        <ul class="md:flex md:items-center z-[0] md:z-auto md:static absolute bg-[#263238] w-full 
             left-0 md:w-auto md:py-0 py-0 md:pl-0 py-4 pl-7 md:opacity-100 opacity-0 right-[-400px] transition-all 
             ease-out duration-500">
-            <a href="login.php" class="text-white text-md px-5 py-1 text-center md:mr-3 sm:mr-0 mx-auto hover:text-[#C27D2B] ">Login</a>
-            <a href="https://account.lumintulogic.com/register.php" class="text-white bg-[#C27D2B] rounded-full text-sm px-5 py-2 text-center md:mr-3 sm:mr-0 mx-auto">Daftar</a>
+            <li class="py-2">
+                <a href="login.php" class="text-white text-md px-5 py-1 text-center md:mr-3 sm:mr-0 mx-auto hover:text-[#C27D2B] ">Login</a>
+            </li>
+            <li class="py-2">
+                <a href="https://account.lumintulogic.com/register.php" class="text-white bg-[#C27D2B] rounded-full text-sm px-5 py-2 text-center md:mr-3 sm:mr-0 mx-auto">Daftar</a>
+            </li>
         </ul>
     </nav>
     <!-- end navbar -->
 
     <!-- konten -->
-    <div class="container px-8 max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:flex lg:max-w-full lg:p-0">
+    <div class="container px-8 max-w-md mx-auto sm:max-w-xl md:max-w-5xl lg:flex lg:max-w-full lg:p-0 mt-10">
         <div class="lg:p-16 lg:mt-8 lg:flex-1">
             <div class="space-y-1">
                     <h1 class="text-3xl lg:text-5xl text-white">NEVER STOP EXPLORING THE WORLD</h1>
@@ -121,6 +125,7 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/flowbite@1.4.2/dist/flowbite.js"></script>
+    <script src="./assets/js/script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> <!-- icons -->
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> <!-- icons -->
 
