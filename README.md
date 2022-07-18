@@ -14,6 +14,14 @@ Install composer dependencies
 ```
 composer install
 ```
+Copy .env.example to .env
+```
+MIDTRANS_SERVER_KEY="YOUR MIDTRANS SERVER KEY"
+IS_PRODUCTION="true"
+MAILTRAP_USERNAME="YOUR_MAILJET_API_KEY"
+MAILTRAP_PASSWORD="YOUR_MAILJET_SECRET_KEY"
+MAILTRAP_EMAIL="YOUR_MAILJET_EMAIL_SENDER"
+```
 Import sql database
 ```
 payment_db.sql
